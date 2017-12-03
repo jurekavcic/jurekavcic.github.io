@@ -25,8 +25,9 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-
-    /*---------------------------------------------*
+	
+	
+	/*---------------------------------------------*
      * Portfolio Pop Up Animation
      ---------------------------------------------*/
 
@@ -36,56 +37,36 @@ jQuery(document).ready(function ($) {
             enabled: true
         }
     });
-
-    /*---------------------------------------------*
-     * Menu Section
+	
+	/*---------------------------------------------*
+     * Menu Background Change
      ---------------------------------------------*/
+	
+	var windowWidth = $(window).width();
+    if (windowWidth > 757) {
 
-    $('.cd-menu-trigger').on('click', function (event) {
-        event.preventDefault();
-        $('.home-main-content').addClass('move-out');
-        $('#main-nav').addClass('is-visible');
-        $('.cd-shadow-layer').addClass('is-visible');
-    });
-    //close menu
-    $('.cd-close-menu').on('click', function (event) {
-        event.preventDefault();
-        $('.home-main-content').removeClass('move-out');
-        $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
-    });
+        
+          
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    $('.navbar').fadeIn(500);
+                    $('.navbar').addClass('menu-bg');
 
-    //clipped image - blur effect
-    set_clip_property();
-    $(window).on('resize', function () {
-        set_clip_property();
-    });
-
-    function set_clip_property() {
-        var $header_height = $('.cd-header').height(),
-                $window_height = $(window).height(),
-                $header_top = $window_height - $header_height,
-                $window_width = $(window).width();
-        $('.cd-blurred-bg').css('clip', 'rect(' + $header_top + 'px, ' + $window_width + 'px, ' + $window_height + 'px, 0px)');
+                } else {
+                    
+                    $('.navbar').removeClass('menu-bg');
+                }
+            });
+        
     }
-    $('#main-nav a[href^="#"]').on('click', function (event) {
-        event.preventDefault();
-        var target = $(this.hash);
-        $('.home-main-content').removeClass('move-out');
-        $('#main-nav').removeClass('is-visible');
-        $('.cd-shadow-layer').removeClass('is-visible');
-        $('body,html').animate(
-                {'scrollTop': target.offset().top},
-        900
-                );
-    });
+	$('#bs-example-navbar-collapse-1').localScroll();
 
 
     /*---------------------------------------------*
      * STICKY scroll
      ---------------------------------------------*/
 
-//    $.localScroll();
+		$.localScroll();
 
 
 

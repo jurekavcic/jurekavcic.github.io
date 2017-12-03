@@ -10,15 +10,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     body {
         font-size: 15px;
     }
-	.home-content h1 {
-    font-size: 48px;
-	}
-	.home-content p {
-    font-size: 21px;
-	}
-	.portfolio-wrapper2 .portfolio-item.width-img {
-    height: 198px;
-	}
     
 
 }
@@ -26,43 +17,44 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Portrait tablets and small desktops */
 @media  (max-width: 991px) {
     html {
-        font-size: 80%;
+        font-size: 90%;
     }
-	.about-content h4 {
-    font-size: 14px;
+   .portfolio-item {
+    width: 45%;
 	}
-	
-	.contact-area {
-    padding: 60px 40px 124px 40px;
+	.heading p {
+    line-height: 30px;
+	}
+	.about-content {
+    text-align: center;
 	}
 
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     html {
-        font-size: 70%;
+        font-size: 80%;
     }
-	.home-content h1 {
-    font-size: 46px;
-	}
-	.home-content p {
-    font-size: 20px;
-	}
-	.about-content a {
-    margin-bottom: 20px;
-	}
-	.experience-content {
-    margin-bottom: 20px;
+	.home-details .home-title h1 {
+    font-size: 35px;
 	}
 	
-	.contact-area {
-    margin-bottom: 20px;
+	.about-content {
+    text-align: center;
 	}
-	.features-bg {
-    margin: 0 auto;
-    margin-bottom: 20px;
+	.portfolio-item {
+    width: 45%;
 	}
-	
+	.contact-details .contact-category .mail h2 {
+    font-size: 40px;
+	}
+	.contact-details .contact-category .phone h5 {
+    font-size: 35px;
+	}
+	.heading p {
+    line-height: 23px;
+    margin-top: 30px;
+	}
    
 }
 
@@ -71,31 +63,26 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
     html {
-        font-size: 60%;
+        font-size: 65%;
     }
-	.home-content h1 {
-    font-size: 18px;
+	.home-details .home-title h1 {
+    font-size:20px;
 	}
-	.home-content p {
+	.scroll-down h5 {
+    font-size: 13px;
+	}
+	
+	.portfolio-item {
+    width: 99%;
+	}
+   .contact-details .contact-category .mail h2 {
+    font-size:25px;
+	}
+	.contact-details .contact-category .phone h5 {
+    font-size: 22px;
+	}
+	.copyright p {
     font-size: 12px;
-	}
-	.heading-content h3 {
-    font-size: 20px;
-	}
-	.experience-content h4 {
-    font-size: 18px;
-	}
-   .experience-content .content-details h5 {
-    font-size: 15px;
-	}
-	.testimonial-content .testimonial-quote p {
-    font-size: 12px;
-	}
-	.contact-wrapper h4 {
-    font-size: 18px;
-	}
-	.cd-header {
-    top: 3%;
 	}
 
 }
@@ -106,19 +93,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 
     html {
-        font-size: 50%;
+        font-size: 60.5%;
     }
-	.home-content p {
-    font-size: 11px;
-	}
-	.cd-header {
-    top: 3%;
-	}
-	.overlay {
-    min-height: 500px;
-	}
-	.home-wrapper {
-    margin-top: 115px;
-	}
 }
 
