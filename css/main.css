@@ -294,14 +294,14 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/banner.gif);
+	background-image: url(../images/miza.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+	min-height: 1000px;
 }
 .banner-btn {
 	opacity: 0.5;
@@ -312,14 +312,14 @@ ul li {
 .banner-text h1 {
 	color: #fff;
 	font-family: "Source Sans Pro";
-	font-size: 53px;
+	font-size: 70px;
 	letter-spacing: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 .banner-text p {
-	color: #8d8d8d;
-	font-size: 12px;
+	color: #fff;
+	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 3px;
 	line-height: 24px;
