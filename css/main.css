@@ -527,6 +527,8 @@ ul li {
 -------------------------------------------------------------------------------*/
 .quote h3 {
 	margin-top: 0;
+	font-size: 50px;
+	margin-bottom; 
 }
 .quote p {
 	color: #2d3033;
@@ -534,56 +536,73 @@ ul li {
 	text-transform: uppercase;
 }
 .quote .btn {
-	margin-top: 30px;
+	margin-top;20px;
 }
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	text-align: right;
+	text-align: center;
+	align-content: center;
+
 }
 .footer-top {
 	background-color: #181818;
 	padding-top: 50px;
+	align-content: center;
 }
 .footer-bottom {
 	background-color: #313454;
 	padding: 20px 0;
+	align-content: center;
 }
 .footer .footer-col {
 	margin-bottom: 20px;
+	align-content: center;
 }
-.footer h5 {
-	color: #fff;
+.footer h3 {
+	color: #f0f8ff
+	
+	
 }
 .footer h5 {
 	margin-bottom: 20px;
+	align-content: center;
 }
+
 .footer p {
 	color: rgba(255, 255, 255, 0.25);
+	align-content: center;
+	align-content: center;
 }
 .footer a {
 	color: rgba(255, 255, 255, 0.50);
+	align-content: center;
 }
 .footer a:hover {
 	color: #e84545;
+	align-content: center;
 }
 .footer .footer-share {
 	margin-top: 0;
+	align-content: center;
 }
 .footer .footer-share li {
 	display: inline-block;
 	float: none;
+	align-content: center;
 }
 .footer .footer-share a {
 	border: none;
 	font-size: 21px;
 	color: rgba(255, 255, 255, 0.25);
+	align-content: center;
 }
 .footer .fa-heart {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+	align-content: center;
 }
 .form
 max-width: 450px
